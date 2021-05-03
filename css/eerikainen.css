@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* Main CSS */
+
+body {
+  background-color: #264a5a;
+  color: #264a5a;
+  font-family: 'Work Sans', sans-serif;
+}
+
+section {
+  position: relative;
+  min-height: calc(100vh - 248px);
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+footer {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.65);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  font-weight: 700;
+}
+
+.fa-external-link {
+  color: rgba(38, 74, 90, 0.5);
+}
+
+h1 {
+  font-family: 'Prata', serif;
+  font-size: 2.5em;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+  font-family: 'Prata', serif;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-weight: 700;
+}
+
+figcaption {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.875em;
+}
+
+#expl {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.form-control,
+.card-body,
+.list-group,
+.list-group-item {
+  border-radius: 0;
+}
+
+/* Buttons */
+
+.btn {
+  border: none;
+  border-radius: 0%;
+}
+
+.btn-dark {
+  background-color: #264a5a;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-dark:hover {
+  background-color: rgba(38, 74, 90, 0.5);
+}
+
+.btn-dark:focus {
+  background-color: #264a5a;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Navigation */
+
+.bg-light {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.bg-dark {
+  background-color: #264a5a !important;
+}
+
+.nav-link,
+.dropdown-item {
+  color: inherit !important;
+  font-size: 1.2em;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.nav-link.active:hover {
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  background-color: #264a5a;
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-weight: 400;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(38, 74, 90, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-toggler {
+  border-color: #264a5a !important;
+  border: 2px solid transparent;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* Tourists */
+
+.badge.bg-danger {
+  font-size: 0.85em;
+}
+
+#more.card-body {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+/* Image Gallery */
+
+.images figure {
+  display: inline-block;
+}
+
+#figcap_images {
+  font-weight: 700;
+}
+
+/* Quiz */
+
+.form-check.quiz {
+  width: max-content;
+}
+
+.not_visible {
+  display: none;
+}
+
+.selected label,
+.right label {
+  background-color: #264a5a;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 6px;
+  padding-right: 6px;
+  font-weight: 600;
+  /* font-size: larger; */
+}
+
+.wrong label {
+  text-decoration-line: line-through;
+  font-style: italic;
+  font-weight: 600;
+}
+
+#result {
+  font-weight: 700;
+}
+
+/* BMI */
+
+.bg-info {
+  background-color: #4bc8e0 !important;
+}
+
+.bg-warning {
+  background-color: #ffdf50 !important;
+}
+
+.bg-warning2 {
+  background-color: #E38A35 !important;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-danger {
+  background-color: #cc4827 !important;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+::placeholder {
+  font-size: 0.85em;
+}
+
+
+/* Media querys */
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 1.15em;
+  }
+}
